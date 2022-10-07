@@ -55,5 +55,4 @@ public class NuevoUsuario {
         this.roles = roles;
     }
     
-    
 }
