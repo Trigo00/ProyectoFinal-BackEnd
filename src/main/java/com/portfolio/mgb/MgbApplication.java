@@ -2,8 +2,6 @@ package com.portfolio.mgb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 public class MgbApplication {
@@ -12,12 +10,4 @@ public class MgbApplication {
 		SpringApplication.run(MgbApplication.class, args);
 	}
 
-}
-
-@RestController
-class HelloController{
-    @GetMapping("/")
-    String hello(){
-        return "Hello World";
-    }
 }
