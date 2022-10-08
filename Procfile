@@ -1,2 +1,2 @@
-web java -Dserver.port=$PORT $JAVA_OPTS -jar target/mgb-0.0.1-SNAPSHOT.jar
+web: java -jar target/bkdmgb-0.0.1-SNAPSHOT.jar
 
