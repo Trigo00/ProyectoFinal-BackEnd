@@ -13,9 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>mgb</name>
     <description>Portfolio de ArgProg</description>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <system.properties>
+        <java.runtime.version>1.8</java.runtime.version>
+        <maven.version>3.6.2</maven.version>
+    </system.properties>
     <dependencies>
         
         <dependency>
